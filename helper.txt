@@ -1,0 +1,17 @@
+**quick commands**
+ng generate component <componentName>
+ng generate module <moduleName>
+ng g c <componentName> --standalone
+
+**Type of Bindings**
+data binding (interpolation) => {{}}
+event binding => ()
+property binding => []
+two way binding => ([])
+style binding => [style.color]="colorname"
+
+**Directives**
+Component
+Attributes => ngClass, ngStyle, ngModel
+ngStyle => stylevalue={"color":"red", "font-size":"40px"}
+Structural => ngIf (*ngIf), ngFor(*ngFor), ngSwitch(*ngSwitch)
